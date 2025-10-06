@@ -1,0 +1,2 @@
+CREATE DATABASE users IF NOT EXIST;
+USE users;
