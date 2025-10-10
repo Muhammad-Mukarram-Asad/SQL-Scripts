@@ -8,5 +8,4 @@ create table users (
   gender enum("Male","Female","Other"),
   date_of_birth Date,
   createdAt default timestamp
-  
   );
