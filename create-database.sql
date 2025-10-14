@@ -1,5 +1,5 @@
 CREATE DATABASE users IF NOT EXIST;
-USE users;
+USE users; // For selecting this database as active
 
 create table users (
   id int auto_increment primary key,
