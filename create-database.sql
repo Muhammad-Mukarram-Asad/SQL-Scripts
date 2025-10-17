@@ -11,17 +11,11 @@ create table users (
   );
 
 -- Insert values in the users table:
-INSERT values(name, email,gender, date_of_birth) into users
+INSERT into users (name, email,gender, date_of_birth) values
 ("Abrar", "avrar@gmail.com","Male","1990-01-15");
-
--- We can also insert multiple entries:
-INSERT values(name, email,gender, date_of_birth) 
-("Abrar", "avrar@gmail.com","Male","1990-01-15"),
 ("babar", "avrar@gmail.com","Male","1990-01-15"),
 ("Cat", "avrar@gmail.com","Male","1990-01-15"),
-("Daniel", "avrar@gmail.com","Male","1990-01-15")
-into users;
-  
+("Daniel", "avrar@gmail.com","Male","1990-01-15");
 
 -- For Quering the table
 select * from users;
