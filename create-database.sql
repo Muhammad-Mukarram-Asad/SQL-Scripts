@@ -13,3 +13,5 @@ create table users (
 -- Insert values in the users table:
 INSERT values(name, email,gender, date_of_birth) into users
 ("Abrar", "avrar@gmail.com","Male","1990-01-15");
+
+select * from users;
