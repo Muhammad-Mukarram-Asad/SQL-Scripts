@@ -14,4 +14,14 @@ create table users (
 INSERT values(name, email,gender, date_of_birth) into users
 ("Abrar", "avrar@gmail.com","Male","1990-01-15");
 
+-- We can also insert multiple entries:
+INSERT values(name, email,gender, date_of_birth) 
+("Abrar", "avrar@gmail.com","Male","1990-01-15"),
+("babar", "avrar@gmail.com","Male","1990-01-15"),
+("Cat", "avrar@gmail.com","Male","1990-01-15"),
+("Daniel", "avrar@gmail.com","Male","1990-01-15")
+into users;
+  
+
+-- For Quering the table
 select * from users;
